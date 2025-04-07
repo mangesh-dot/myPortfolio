@@ -1,0 +1,55 @@
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(69, 67, 67);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0.7rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    
+
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding-right: 2rem;
+    list-style: none;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(232, 225, 225);
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: gray;
+}
+
+.contact-btn {
+    background-color: purple;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 9999px;
+    font-weight: 600;
+    transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: darkviolet;
+}
+
+nav h1 {
+    font-size: 1.5rem;  /* Adjust size as needed */
+    font-weight: bold;  /* Make it bold */
+    color: white;       /* Ensure visibility */
+    margin-left: 1rem;  /* Adjust spacing from the left */
+}

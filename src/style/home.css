@@ -1,0 +1,95 @@
+.home-container {
+    position: relative;  /* Allows it to be layered above */
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5); /* Optional: adds slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* Adjust text color if needed */
+  }
+  
+
+
+
+.about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.greeting {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6c5ce7;
+}
+
+.about-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px 0;
+    margin-top: 80px;
+}
+
+.name-highlight {
+    color: #6c5ce7;
+}
+
+.about-subtitle {
+    font-size: 1.2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.resume-button,
+.contact-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.resume-button {
+    background-color: #6c5ce7;
+    color: white;
+    margin-right: 10px;
+}
+
+.contact-button {
+    background-color: white;
+    border: 2px solid #6c5ce7;
+    color: #6c5ce7;
+}
+
+.resume-button:hover {
+    background-color: #4834d4;
+}
+
+.contact-button:hover {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+.img {
+    margin-top: 30px;
+}
+
+.profile-image {
+    width: 180px;
+    padding: 50px;
+    padding-left: 400px;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.skills {
+    margin-top: 20px;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #333;
+    font-size: 1rem;
+}
